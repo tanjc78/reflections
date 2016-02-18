@@ -1,15 +1,25 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+- To make sure that Git is tracking it. If uninitialized, Git wouldn't know what you want to do.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+- Staging area contains updated file, but not saved to Git repo yet. Allows quick amendments/deletions if necessary.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+- After adding the file, review and commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- Experimental branches can be easily reverted if it is unwanted
+
 How do the diagrams help you visualize the branch structure?
+
+- See the number of branches in the project, which is reachable or not
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
